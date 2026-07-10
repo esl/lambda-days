@@ -747,3 +747,6 @@ table
 .tag {
     display: inline;
 }
+
+/* archive: open the Past events dropdown without JS */
+.dropdown:hover>.dropdown-menu,.dropdown:focus-within>.dropdown-menu{display:block}
